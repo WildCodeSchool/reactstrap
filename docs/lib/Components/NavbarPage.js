@@ -23,7 +23,7 @@ export default class NavsPage extends React.Component {
           </PrismCode>
         </pre>
         <h4>Navbar Properties</h4>
-        <p>See also <Link to="/components/navs/">Navs</Link> for additional components and PropTypes.</p>
+        <p>See also <Link to="/reactstrap/components/navs/">Navs</Link> for additional components and PropTypes.</p>
         <pre>
           <PrismCode className="language-jsx">
 {`Navbar.propTypes = {

@@ -8,11 +8,11 @@ export default (props) => {
     <div className="wrapper">
       <Helmet
         titleTemplate="reactstrap - %s"
-        title="React Bootstrap 4 components"
-        defaultTitle="React Bootstrap 4 components"
+        title="Reactstrap documentation"
+        defaultTitle="Reactstrap documentation"
         meta={[
-            { 'name': 'description', 'content': 'reactstrap - easy to use React Bootstrap 4 components compatible with React 16+' },
-            { 'property': 'og:type', 'content': 'article' }
+            { 'name': 'description', 'content': '' },
+            { 'property': 'og:type', 'content': '' }
         ]}
       />
       <Nav />

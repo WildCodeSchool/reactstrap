@@ -6,7 +6,7 @@ export default function Example () {
     <Navbar color="light" light expand="md">
       <Nav className="ml-auto" navbar>
         <NavItem>
-          <NavLink href="/components/">Inactive Link</NavLink>
+          <NavLink href="/reactstrap/components/">Inactive Link</NavLink>
         </NavItem>
         <UncontrolledDropdown setActiveFromChild>
           <DropdownToggle tag="a" className="nav-link" caret>

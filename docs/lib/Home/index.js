@@ -14,15 +14,19 @@ export default () => {
           <Row>
             <Col>
               <p className="lead">
-                <img src="/assets/logo.png" alt="" width="150px" />
+                <img src="/reactstrap/assets/logo.png" alt="" width="150px" />
               </p>
               <h1 className="jumbotron-heading display-4">reactstrap</h1>
+              <div className="alert alert-warning text-center">
+                This is a home-brew version of the <strong><a href="https://reactstrap.github.io/">official documentation</a>.</strong><br />
+                It&apos; been forked from the Reactstrap repo right before it migrated all the examples to hooks.
+              </div>
               <p className="lead">
                 Easy to use React Bootstrap 4 components
               </p>
               <p>
                 <Button outline color="danger" href="https://github.com/reactstrap/reactstrap">GitHub</Button>
-                <Button color="danger" tag={Link} to="/components/">Components</Button>
+                <Button color="danger" tag={Link} to="/reactstrap/components/">Components</Button>
               </p>
             </Col>
           </Row>

@@ -43,7 +43,7 @@ export default class DropdownPage extends React.Component {
       <div>
         <PageTitle title="Dropdowns" />
         <p>
-          The <code>Dropdown</code> component is used to pass the <code>isOpen</code> &amp; <code>toggle</code> props via context to the following components: <code>DropdownToggle</code>, <code>DropdownMenu</code>. The <code>DropdownToggle</code> uses the <code>Button</code> component internally, meaning it also accepts all the props the <Link to="/components/buttons/">Button component</Link> accepts.
+          The <code>Dropdown</code> component is used to pass the <code>isOpen</code> &amp; <code>toggle</code> props via context to the following components: <code>DropdownToggle</code>, <code>DropdownMenu</code>. The <code>DropdownToggle</code> uses the <code>Button</code> component internally, meaning it also accepts all the props the <Link to="/reactstrap/components/buttons/">Button component</Link> accepts.
         </p>
         <div className="docs-example">
           <DropdownExample />

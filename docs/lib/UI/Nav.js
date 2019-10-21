@@ -22,7 +22,7 @@ export default class UINav extends React.Component {
     return (
       <Navbar className="header" color="faded" light expand="md">
         <Container>
-          <NavbarBrand className="mr-auto" tag={Link} to="/">reactstrap</NavbarBrand>
+          <NavbarBrand className="mr-auto" tag={Link} to="/reactstrap">reactstrap</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} />
           <Collapse navbar isOpen={this.state.showNavbar}>
             <Nav navbar className="ml-sm-auto">
@@ -30,7 +30,7 @@ export default class UINav extends React.Component {
                 <DocSearch />
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/components/" activeClassName="active">Components</NavLink>
+                <NavLink tag={Link} to="/reactstrap/components/" activeClassName="active">Components</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/utilities/" activeClassName="active">Utilities</NavLink>

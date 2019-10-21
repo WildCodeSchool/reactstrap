@@ -49,7 +49,7 @@ export default class AlertsPage extends React.Component {
   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   fade: PropTypes.bool, // default: true
   // Controls the transition of the alert fading in and out
-  // See [Fade](/components/fade/) for more details
+  // See [Fade](/reactstrap/components/fade/) for more details
   transition: PropTypes.shape(Fade.propTypes),
 }`}
           </PrismCode>

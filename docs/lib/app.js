@@ -62,9 +62,9 @@ export default (locals, callback) => {
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
           ${head.title.toString()}
           ${head.meta.toString()}
-          <link rel=icon href=/assets/favicon.ico>
-          <link rel="stylesheet" href="/assets/main.css"/>
-          <link rel="stylesheet" href="/assets/docs.css"/>
+          <link rel=icon href=/reactstrap/assets/favicon.ico>
+          <link rel="stylesheet" href="/reactstrap/assets/main.css"/>
+          <link rel="stylesheet" href="/reactstrap/assets/docs.css"/>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
         </head>
         <body>
@@ -76,8 +76,8 @@ export default (locals, callback) => {
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             ga('create', 'UA-40000603-2', 'auto');
           </script>
-          <script src="/assets/prism.js" data-manual></script>
-          <script src="/bundle.js"></script>
+          <script src="/reactstrap/assets/prism.js" data-manual></script>
+          <script src="/reactstrap/bundle.js"></script>
           <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
           <script type="text/javascript">
             docsearch({

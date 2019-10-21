@@ -12,7 +12,7 @@ export default () => {
           <Row>
             <Col>
               <p className="lead">
-                <img src="/assets/logo.png" alt="" width="150px" />
+                <img src="/reactstrap/assets/logo.png" alt="" width="150px" />
               </p>
               <h1 className="jumbotron-heading display-4">404 - Not Found</h1>
               <p className="lead">
@@ -20,7 +20,7 @@ export default () => {
               </p>
               <p>
                 <Button outline color="danger" className="mr-1" tag={Link} to="/">Get Started</Button>
-                <Button color="danger" tag={Link} to="/components/">View Components</Button>
+                <Button color="danger" tag={Link} to="/reactstrap/components/">View Components</Button>
               </p>
             </Col>
           </Row>

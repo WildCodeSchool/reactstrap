@@ -42,7 +42,7 @@ export default class ToastsPage extends React.Component {
   isOpen: PropTypes.bool,  // default: true
   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   // Controls the transition of the toast fading in and out
-  // See [Fade](/components/fade/) for more details
+  // See [Fade](/reactstrap/components/fade/) for more details
   transition: PropTypes.shape(Fade.propTypes),
 }`}
           </PrismCode>

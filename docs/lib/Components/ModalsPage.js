@@ -64,7 +64,7 @@ const ModalsPage = () => {
   // used to reference the ID of the title element in the modal
   labelledBy: PropTypes.string,
   keyboard: PropTypes.bool,
-  // control backdrop, see http://v4-alpha.getbootstrap.com/components/modal/#options
+  // control backdrop, see http://v4-alpha.getbootstrap.com/reactstrap/components/modal/#options
   backdrop: PropTypes.oneOfType([
     PropTypes.bool,
     PropTypes.oneOf(['static'])
@@ -96,11 +96,11 @@ const ModalsPage = () => {
   ]),
   // backdropTransition - controls backdrop transition
   // timeout is 150ms by default to match bootstrap
-  // see [Fade](/components/fade/) for more details
+  // see [Fade](/reactstrap/components/fade/) for more details
   backdropTransition: PropTypes.shape(Fade.propTypes),
   // modalTransition - controls modal transition
   // timeout is 300ms by default to match bootstrap
-  // see [Fade](/components/fade/) for more details
+  // see [Fade](/reactstrap/components/fade/) for more details
   modalTransition: PropTypes.shape(Fade.propTypes),
   innerRef: PropTypes.object,
   // if modal should be destructed/removed from DOM after closing

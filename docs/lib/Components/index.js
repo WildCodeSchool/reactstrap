@@ -4,115 +4,115 @@ import Content from '../UI/Content';
 const items = [
   {
     name: 'Alerts',
-    to: '/components/alerts/'
+    to: '/reactstrap/components/alerts/'
   },
   {
     name: 'Badge',
-    to: '/components/badge/'
+    to: '/reactstrap/components/badge/'
   },
   {
     name: 'Breadcrumbs',
-    to: '/components/breadcrumbs/'
+    to: '/reactstrap/components/breadcrumbs/'
   },
   {
     name: 'Buttons',
-    to: '/components/buttons/'
+    to: '/reactstrap/components/buttons/'
   },
   {
     name: 'Button Dropdown',
-    to: '/components/button-dropdown/'
+    to: '/reactstrap/components/button-dropdown/'
   },
   {
     name: 'Button Group',
-    to: '/components/button-group/'
+    to: '/reactstrap/components/button-group/'
   },
   {
     name: 'Card',
-    to: '/components/card/'
+    to: '/reactstrap/components/card/'
   },
   {
     name: 'Carousel',
-    to: '/components/carousel/'
+    to: '/reactstrap/components/carousel/'
   },
   {
     name: 'Collapse',
-    to: '/components/collapse/'
+    to: '/reactstrap/components/collapse/'
   },
   {
     name: 'Dropdowns',
-    to: '/components/dropdowns/'
+    to: '/reactstrap/components/dropdowns/'
   },
   {
     name: 'Fade',
-    to: '/components/fade/'
+    to: '/reactstrap/components/fade/'
   },
   {
     name: 'Form',
-    to: '/components/form/'
+    to: '/reactstrap/components/form/'
   },
   {
     name: 'Input Group',
-    to: '/components/input-group/'
+    to: '/reactstrap/components/input-group/'
   },
   {
     name: 'Jumbotron',
-    to: '/components/jumbotron/'
+    to: '/reactstrap/components/jumbotron/'
   },
   {
     name: 'Layout',
-    to: '/components/layout/'
+    to: '/reactstrap/components/layout/'
   },
   {
     name: 'List Group',
-    to: '/components/listgroup/'
+    to: '/reactstrap/components/listgroup/'
   },
   {
     name: 'Media',
-    to: '/components/media/'
+    to: '/reactstrap/components/media/'
   },
   {
     name: 'Modals',
-    to: '/components/modals/'
+    to: '/reactstrap/components/modals/'
   },
   {
     name: 'Navbar',
-    to: '/components/navbar/'
+    to: '/reactstrap/components/navbar/'
   },
   {
     name: 'Navs',
-    to: '/components/navs/'
+    to: '/reactstrap/components/navs/'
   },
   {
     name: 'Spinners',
-    to: '/components/spinners/'
+    to: '/reactstrap/components/spinners/'
   },
   {
     name: 'Toasts',
-    to: '/components/toasts/'
+    to: '/reactstrap/components/toasts/'
   },
   {
     name: 'Pagination',
-    to: '/components/pagination/'
+    to: '/reactstrap/components/pagination/'
   },
   {
     name: 'Popovers',
-    to: '/components/popovers/'
+    to: '/reactstrap/components/popovers/'
   },
   {
     name: 'Progress',
-    to: '/components/progress/'
+    to: '/reactstrap/components/progress/'
   },
   {
     name: 'Tables',
-    to: '/components/tables/'
+    to: '/reactstrap/components/tables/'
   },
   {
     name: 'Tabs',
-    to: '/components/tabs/'
+    to: '/reactstrap/components/tabs/'
   },
   {
     name: 'Tooltips',
-    to: '/components/tooltips/'
+    to: '/reactstrap/components/tooltips/'
   }
 ];
 
